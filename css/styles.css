@@ -142,3 +142,26 @@ a {
     border: 5px solid #3882F6;
     border-radius: 24px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    padding: 168px 360px 120px 360px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    align-items: center;
+}
+
+.quote-author {
+    margin-top: 16px;
+    font-size: 32px;
+    color: #1F2937;
+    font-weight: 800;
+}
