@@ -45,6 +45,51 @@ a {
     white-space: nowrap;
     gap: 64px;
 }
+
 .hero {
     display: flex;
+    justify-content: space-between;
+    padding: 128px 0 128px 0;
+    gap: 32px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero img {
+    flex: 1 0 1;
+    max-width: 100%;
+}
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.hero .text-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.signup-button {
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    width: 128px;
+    height: 36px;
+    color: #F9FAF8;
 }
